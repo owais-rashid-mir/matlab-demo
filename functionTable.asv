@@ -1,0 +1,17 @@
+%Function to caluclate factorial of a number.
+
+function functionTable()
+    fprintf("Table = %d \n", computeTable() );
+end
+
+function table = computeTable()
+    num = input('Enter a number: ')
+    
+    for i=1 : 10
+        num = num * i
+        i = i - 1
+    end
+    
+    tabl = num
+   
+end
